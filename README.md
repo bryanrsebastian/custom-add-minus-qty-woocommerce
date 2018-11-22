@@ -10,7 +10,7 @@ Please be noted that this plugin use a third party library ( [jQuery.js](https:/
 ### How to Use
 1. Add your custom Add/Minus button in `wp-content/themes/your-theme/woocommerce-template/single-product/add-to-cart/simple.php`.
 2. Add a `__add_qty/__minus_qty` class to your custom Add/Minus button.
-3. Hide the up/down of the default quantity input by using this css style.
+3. Hide the up/down of the default quantity input by using this css style:
 ```sh
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
